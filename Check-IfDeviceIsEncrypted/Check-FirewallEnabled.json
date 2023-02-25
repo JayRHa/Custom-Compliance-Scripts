@@ -1,0 +1,18 @@
+{
+    "Rules": [
+        {
+            "SettingName": "Ecrypted",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": true,
+            "MoreInfoUrl": "https://google.com",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "This device is not encrypted.",
+                    "Description": "You have to encrypt the C drive."
+                }
+            ]
+        }
+    ]
+}

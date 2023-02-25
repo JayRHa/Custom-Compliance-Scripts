@@ -1,0 +1,18 @@
+{
+    "Rules": [
+        {
+            "SettingName": "FreeStorage",
+            "Operator": "GreaterEquals",
+            "DataType": "int64",
+            "Operand": 10,
+            "MoreInfoUrl": "https://google.com",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "No storage free.",
+                    "Description": "The device has less than 10GB storage free. Please run a cleanup"
+                }
+            ]
+        }
+    ]
+}

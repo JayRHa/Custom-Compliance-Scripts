@@ -1,0 +1,18 @@
+{
+    "Rules": [
+        {
+            "SettingName": "LocalAdmin",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": false,
+            "MoreInfoUrl": "https://google.com",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "There are unauthorized local admins on the device.",
+                    "Description": "Remove the admin/s from the system."
+                }
+            ]
+        }
+    ]
+}
